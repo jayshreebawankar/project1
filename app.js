@@ -12,5 +12,5 @@ app.use(bodyParser.json());
 app.use('/api/places', placesRoutes);
 
 app.listen(3994, ()=>{
-    console.log("my server run successfully");
+    console.log("my serverc is running successfully");
 });                                         
