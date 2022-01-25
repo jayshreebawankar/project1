@@ -1,5 +1,5 @@
 const express = require('express');
-// const HttpError = require('../module/http-error')
+// const HttpError = require('../moduzle/http-error')
 
 let DUMMY_PLACES = [
     {

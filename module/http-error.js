@@ -1,9 +1,9 @@
-class HTTPError extends Error{
-    constructor(msg, errcode){
-        super(msg);
-        this.code(errcode);
+// class HTTPError extends Error{
+//     constructor(msg, errcode){
+//         super(msg);
+//         this.code(errcode);
 
-        console.log(msg);
-    }
-}
-module.exports = HTTPError;
+//         console.log(msg);
+//     }
+// }
+// module.exports = HTTPError;
