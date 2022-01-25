@@ -1,5 +1,5 @@
 const express = require('express');
-const HttpError = require('../module/http-error')
+// const HttpError = require('../module/http-error')
 
 let DUMMY_PLACES = [
     {
@@ -61,9 +61,9 @@ const getPlaceByID=((req, res, next) =>{
     const places = DUMMY_PLACES.find(p =>{
         return p.id == placeID || p.Tuition == placeID || p.description == placeID || p.address == placeID || p.student == placeID || p.location == placeID || p.college == placeID || p.creator == placeID;
     })
-    if(!places){
-        throw new HttpError('Counld not find places, please recheck url...', 404);
-    }
+    // if(!places){
+    //     throw new HttpError('Counld not find places, please recheck url...', 404);
+    // }
     res.json({places});
 })
 
